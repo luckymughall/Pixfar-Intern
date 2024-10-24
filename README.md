@@ -24,19 +24,25 @@ This is a basic e-commerce app where users can browse products, add them to a ca
    ```bash
    https://github.com/luckymughall/Pixfar-Intern.git
    cd your-repo
-Install dependencies:
+2. Install dependencies:
 npm install
-Start the development server:
+3. Start the development server:
 npm run dev
-Key Architectural Decisions
-Redux Toolkit & Redux Persist:
+# Key Architectural Decisions
+## Redux Toolkit & Redux Persist:
 State management is done with Redux Toolkit, which simplifies actions and reducers. Redux Persist ensures cart data stays saved even after a page reload.
 
-RTK Query:
+## RTK Query:
 Used for data fetching, product searching, and infinite scrolling.
 
-Docker:
+## Docker:
 The app is containerized with Docker for easier deployment.
+
+## Tailwind CSS:
+Tailwind CSS provides responsive and modern styling.
+
+## React Icons & React Hot Toast:
+React Icons enhance the look of buttons, and React Hot Toast delivers user-friendly notifications during actions like adding products to the cart.
 
 Tailwind CSS:
 Tailwind CSS provides responsive and modern styling.
